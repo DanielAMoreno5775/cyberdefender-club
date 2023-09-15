@@ -1,0 +1,219 @@
+body, html {
+    min-height: 100%;
+    background-color:aquamarine;
+}
+
+#myLogo {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    font-size: 90%;
+}
+
+.custom-toggler.navbar-toggle {
+    border-color: white;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#titleImage {
+	width: 90%;
+    height: auto;
+    margin-top:-10px;
+}
+
+.topTitle {
+    font-family: Georgia,Times,Times New Roman,serif;
+    font-size: 7em;
+    text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
+}
+
+#toroImage {
+    width: 69px;
+    height: 60px;
+}
+
+.navbar-collapse{
+    font-size: 80%;
+    padding: 1px;
+}
+
+.bevel {
+    padding: 10px 60px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: -moz-linear-gradient(top, #0b5394 0%, #06243f 100%); /* firefox */
+    border: solid #ccc 3px;
+    box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
+    -webkit-box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
+    text-shadow: 0 1px 2px #000;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0b5394), color-stop(100%,#06243f)); /* webkit */
+    font-size: 20px;
+    color: white !important;
+}
+
+.navbar-fixed-top .navbar-collapse li a {
+    color: white;
+}
+
+.navbar-fixed-top .navbar-collapse li a:hover {
+    color: #444 !important;
+}
+
+.aboutText {
+    color: #fff;
+}
+
+.navbarContainer{
+    color:white;
+}
+
+#signUpAndHome {
+    background: url("background1.png") center no-repeat;
+    background-color: #444;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+#topRow {
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+    #topRow h1 {
+        font-size: 300%;
+    }
+
+    #topRowText {
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        font-size: 150%;
+    }
+
+#emailSignup {
+    margin-top: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.marginTop {
+    margin-top: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 70px;
+}
+
+.marginBottom {
+    margin-bottom: 30px;
+}
+
+#NCL {
+    background: url("RedTeaming.jpg") center center no-repeat;
+    background-color: #444;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size:25px;
+}
+
+#about {
+    background: url("gray-background.png") center center no-repeat;
+    background-color: #444;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+#Meetings {
+    background: url("gray-background.png") center center no-repeat;
+    background-color: #444;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.NCLImage {
+    width: 250px;
+    height: auto;
+}
+
+.MeetingImage {
+    width: 500px;
+    height: auto;
+}
+
+.outsideLinkTitle {
+    color: white;
+}
+
+    .outsideLinkTitle:hover {
+        color: blue;
+        font-size: 1.2em;
+    }
+
+#signUp {
+    font-size: 20px;
+}
+
+.meetingsText {
+    color: white;
+    font-size: 200%;
+}
+
+.discordLink:hover {
+    color: #84afd3;
+}
+
+#location{
+    margin-bottom:0px;
+}
+
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    font-size: 23px;
+    border: none;
+    outline: none;
+    background-color: #660000;
+    color: white;
+    cursor: pointer;
+    padding: 4px 10px 10px 10px;
+    border-radius: 24px
+}
+
+#topButton:hover {
+    background-color: #843232;
+}
+
+#ErrorMessage {
+    font-size: 20px;
+    text-align: center;
+    color: #E5003F;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#SuccessMessage {
+    font-size: 20px;
+    text-align: center;
+    color: green;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
